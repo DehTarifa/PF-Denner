@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio Denner Tarifa</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- LINK CSS -------------------------->
+
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="assets/styles/aboutme.css" />
+    <link rel="stylesheet" href="assets/styles/global.css">
+  </head>
+
+  <body>
+
+    <section id="top-Header position-relative">
+      <nav id="navigation-bar" class="container-fluid position-fixed">
+        <div
+          id="content-navbar"
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <div id="navegation-menu">
+            <button
+              id="navmenu-btn-modal"
+              class="d-flex align-items-center gap-1"
+            >
+              <i class="bi bi-list"></i>
+              Menu
+            </button>
+          </div>
+
+          <div id="navegation-links">
+            <div id="container-links" class="d-flex justify-content-center">
+              <a href="index.html">Inicio</a>
+              <a href="aboutme.html">Sobre mim</a>
+              <a href="experience.html">Experiência</a>
+            </div>
+          </div>
+
+          <div id="navegation-logo">
+            <div class="d-flex gap-2 align-items-center">
+              <span>Portifólio</span>
+              <div id="nav-perfil"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="side-menu-bar" class="position-fixed w-100">
+        <div id="sidemenu-header" class="d-flex justify-content-between p-2">
+          <input
+            id="sidemenu-input"
+            type="text"
+            placeholder="Selecione uma seção"
+            class="w-100 p-2"
+          />
+          <i
+            class="bi bi-x-lg d-flex justify-content-center align-items-center"
+          ></i>
+        </div>
+
+        <div id="sidemenu-main" class="d-flex flex-column p-2">
+          <a href="#aboutme-intro" onmouseover="showInMenu('Sobre mim')">
+            <i class="bi bi-person"></i>
+            Sobre mim
+          </a>
+
+          <a href="#aboutme-skill" onmouseover="showInMenu('Habilidades Profissionais')">
+            <i class="bi bi-card-checklist"></i>
+            Habilidades Profissionais
+          </a>
+
+          <a href="#aboutme-technology" onmouseover="showInMenu('Tecnologias Utilizadas')">
+            <i class="bi bi-cpu"></i>
+            Tecnologias Utilizadas
+          </a>
+
+          <a href="#section-contact" onmouseover="showInMenu('Contato')">
+            <i class="bi bi-phone"></i>
+            Contato
+          </a>
+        </div>
+
+        <div id="sidemenu-footer">
+          <a href="index.html" onmouseover="showInMenu('Seção05')">
+            <i class="bi bi-arrow-return-left"></i>
+            Voltar para inicio
+          </a>
+        </div>
+      </div>
+
+      <div id="navigation-bottom">
+        <div id="content-navbottom" class="d-flex justify-content-around">
+
+          <a href="index.html">
+            <i class="bi bi-house"></i>
+          </a>
+
+          <a href="aboutme.html">
+            <i class="bi bi-person"></i>
+          </a>
+
+          <a href="experience.html">
+            <i class="bi bi-easel"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <div id="screen-notification">
+        <div id="content-notification">
+          <p>
+            Este portfólio está em desenvolvimento, portanto pode haver algumas falhas que logo serão corrigidas. <br>
+            Desde já agradeço sua vinda aqui, espero que gostem 😁
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECTION INTRODUCTION --------------->
+    <div id="aboutme-intro" class="container-fluid">
+
+      <div id="intro-apresentation" class="container position-relative mb-4 mb-md-5">
+        <h2 class="title">Sobre mim</h2>
+        <p class="fs-5">Carta de apresentação</p>
+        <blockquote>
+        <strong>Prezados Senhores (a).</strong><br>
+          Meu nome é Denner Tarifa Ribeiro, tenho 23
+          anos, sou estudante do curso de Análise e Desenvolvimento de sistemas
+          no centro universitário ENIAC. Procuro oportunidades para iniciar a
+          minha carreira profissional na área de TI, a fim de aprender e
+          desenvolver minhas habilidades profissionais e pessoais. Estou me
+          desenvolvendo nas linguagens JavaScript, nodejs, sql, mas sou flexível
+          para aprender demais tecnologias do mercado , trabalho bem em equipe e
+          sempre busco por melhores resultados.
+        </blockquote>
+      </div>
+
+      <div id="intro-information" class="container">
+        <p><strong>Curso: </strong>Análise e desenvolvendo de sistemas</p>
+        <p><strong>Universidade: </strong>Centro universitário ENIAC</p>
+        <p><strong>Formação: </strong>Prevista para 12/2023</p>
+        <p><strong>Nascimento: </strong>17/08/1999 - 23 anos</p>
+        <p><strong>Localização: </strong>Vila Mogilas - Mogi das cruzes - SP</p>
+      </div>
+    </div>
+
+     <!-- SECTION CARD SKILL ---------------->
+    <div id="aboutme-skill" class="container-fluid position-relative">
+      <div id="container-cardskill" class="container ">
+        <h2 class="title">Habilidade Profissionais</h2>
+
+        <div class="row text-center">
+
+          <div class="col-12 col-md-4 card-skill">
+            <img src="assets/Icon/Organiza.png" alt="Icone de organização">
+            <p>Organização</p>
+            <Blockquote>
+              Para mim manter o ambiente organizado é essencial, pois assim podemos aumentar a produtividade de diversas atividades dentro da corporação, além de criar um local agradável para todas as pessoas próximas.
+            </Blockquote>
+          </div>
+
+          <div class="col-12 col-md-4 card-skill">
+            <img src="assets/Icon/Resiliencia.png" alt="Icone de organização">
+            <p>Resiliência</p>
+            <Blockquote>
+              Nos dias atuais é comum o mercado ou até mesmo a corporação mudar ou criar processos diferentes, neste aspecto consigo me manter sempre focado, sou flexível para me adaptar a mudanças e novos processos.
+            </Blockquote>
+          </div>
+
+          <div class="col-12 col-md-4 card-skill">
+            <img src="assets/Icon/Criative.png" alt="Icone de organização">
+            <p>Criatividade e Inovação</p>
+            <Blockquote>
+              Ser criativo e inovador é algo importante, pois a partir disso me permite descobrir maneiras novas e melhores de resolver um processo, além de encontrar formas diferentes de criar algo partindo do absoluto zero.
+            </Blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION TECNOLOGY ------------------>
+    <div id="aboutme-technology" class="contianer-fluid">
+
+      <div id="technology-banner"></div>
+
+      <div class="container position-relative">
+
+        <div id="technology-text">
+          <h2 class="title">tecnologias que utilizo</h2>
+          <p>Tecnologias são importantes no dia a dia de um desenvolvedor, apesar de estar no início da minha carreira, me dedico sempre a estudar as linguagens que estão presentes no mercado de tecnologia.</p>
+        </div>
+
+        <div id="technology-container-card" class="row text-center">
+
+          <div id="card-html" class="col-12 col-md-4 card-tec">
+            <p class="fs-2 fw-bold mb-0">HTML</p>
+            <Blockquote>
+              Conhecimento de sintaxe, e tags para desenvolvimento de landing page ou interface com o usuário
+            </Blockquote>
+            <p class="fw-bold">73%</p>
+          </div>
+
+          <div id="card-css" class="col-12 col-md-4 card-tec">
+            <p class="fs-2 fw-bold mb-0">CSS</p>
+            <Blockquote>
+              Estilizar a interface de modo que ela fique agradável visualmente para o usuário final, de modo que possa ficar responsável por outros dispositivos.
+            </Blockquote>
+            <p class="fw-bold">65%</p>
+          </div>
+
+          <div id="card-js" class="col-12 col-md-4 card-tec">
+            <p class="fs-2 fw-bold mb-0">JavaScript</p>
+            <Blockquote>
+              Conceitos básico na lógica de programação como  manipular a DOM, e utilização de funções, condições e loopings 
+            </Blockquote>
+            <p class="fw-bold">28%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION DEVELOPING TECNOLOGY ------------------>
+    <div id="tecnology-developing" class="container-fluid">
+      <div id="container-developing" class="container" >
+
+        <h2 class="title">Tecnologias em aprendizado</h2>
+
+        <div class="row">
+          <img src="assets/Icon/Bootstrap.png" alt="" >
+          <img src="assets/Icon/jQuery.png" alt="">
+          <img src="assets/Icon/Postgress.png" alt="">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FOOTER ------------------>
+
+    <footer id="section-contact" class="text-center">
+      <h3>Entre em contato</h3>
+      <p>Email: denner_tarifa@outlook.com</p>
+
+      <div id="footer-links" class="d-flex gap-3 justify-content-center">
+        <a href="https://www.linkedin.com/in/denner-tarifa-ribeiro-9a2710187/" target="_blank">
+          <i class="bi bi-linkedin fs-2"></i>
+        </a>
+
+        <a href="https://github.com/DehTarifa" target="_blank">
+          <i class="bi bi-github fs-2"></i>
+        </a>
+
+        <a href="https://wa.me/5511914080548" target="_blank">
+          <i class="bi bi-whatsapp fs-2"></i>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1HhWKCbGfmV5oYurZ7KkkOVNItoq_d1us/view?usp=share_link" target="_blank">
+          <i class="bi bi-file-earmark-arrow-down fs-2"></i>
+        </a>
+      </div>
+
+      <p id="footer-text">	&#169; Este projeto foi criado com a intenção de mostrar meus conhecimento no desenvolvendo de front-end, afim de usá los para futuras entrevista de emprego e oportunidades de estágio</p>
+    </footer>
+
+    <script src="assets/script/jquery.js"></script>
+    <script src="assets/script/popper.min.js"></script>
+    <script src="assets/script/bootstrap.js"></script>
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>

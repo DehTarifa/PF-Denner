@@ -1,0 +1,246 @@
+/* STYLE DEFAULT --------------------------*/
+
+.link-button{
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #5C2EF2;
+  padding: 10px;
+  width: 15rem;
+  margin: 2rem auto;
+  color: #C4C4C4;
+  transition: .6s ease;
+  text-align: center;
+  font-size: .9rem;
+}
+
+.link-button:hover{
+  background: #5C2EF2;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.text-section{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* SECTION INTRODUCTION -------------------*/
+
+#section-introduction{
+  background-image: url(/assets/img/bg-06.png);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+#container-introduction{
+  border: 1px solid white;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#content-introduction-text{
+  border: 1px solid white;
+}
+
+#content-introduction-text > h1{
+  display: flex;
+  color: #5C2EF2;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#content-introduction-text > h1 > span{
+  font-size: 2rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#content-introduction-img{
+  border: 1px solid white;
+}
+
+#content-introduction-img > img{
+  width: 100%;
+}
+
+/* SECTION ABOUT ME -----------------------*/
+
+#section-aboutme{
+  padding: 10rem .5rem;
+  background: #080808; 
+}
+
+#section-aboutme aside{
+  border: 1px solid #c4c4c421;
+  padding: 2rem 2rem;
+  color: var(--default-color-02);
+  text-align: justify;
+  max-width: 60rem;
+}
+
+#section-aboutme aside h2{
+  text-transform: uppercase;
+  font-weight: 800;
+  background: #080808; 
+  width: 200px;
+  text-align: center;
+  position: absolute;
+  top: -15px;
+}
+
+#section-aboutme a {
+  border: 1px solid #c4c4c438;
+  margin-top: 3rem;
+}
+
+/* SECTION PROFESSIONAL EXPERIENCE --------*/
+
+#section-experience aside{
+  padding: 4rem 0rem;
+}
+
+#content-cardexperience{
+  max-width: 68rem;
+  margin: auto;
+}
+
+.card-experience{
+  text-align: center;
+  background: #f3f3f360;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 28rem;
+  max-width: 330px;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.card-experience h3{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 4rem;
+}
+
+.card-experience blockquote{
+  text-align: justify;
+  font-size: .9rem;
+  height: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid #c4c4c433;
+}
+
+.card-experience p{
+  font-size: .8rem;
+}
+
+/* SECTION FORMATION ACADEMICY ------------*/
+
+#academic-intro{
+  background-image: linear-gradient(rgb(0,0,0, .8), rgb(0,0,0, .8)), url(/assets/img/bg-3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dadada;
+  text-transform: uppercase;
+}
+
+#academic-container{
+  background: #080808; 
+  color: var(--default-color-02);
+  padding: 3rem 0rem;
+}
+
+#container-cardacademic{
+  width: 100%;
+  max-width: 85rem;
+  margin: 0 auto;
+  gap: 1.5rem;
+}
+
+.card-academic{
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0rem;
+  height: 28rem;
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #dadada1f;
+  border-radius: 3px;
+  transition: .6s ease;
+}
+
+.card-academic:hover{
+  background-color: #fff;
+  color: var(--default-color-01);
+  transform: translateY(-18px);
+}
+
+.card-academic h3{
+  font-size: 20px;
+  height: 5rem;
+  text-transform: uppercase;
+}
+
+.card-academic p{
+  font-size: 12px;
+  height: 3rem;
+}
+
+.card-academic blockquote{
+  text-align: justify;
+}
+
+.card-academic ul li{
+  text-align: left;
+}
+
+@media screen and (max-width:992px) {
+
+  #content-intro-title h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  
+  #content-intro-title p{
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+  }
+
+}
+
+@media screen and (min-width:1400px) {
+
+  #content-intro-title h1{
+    font-size: 8rem;
+    line-height: 7.8rem;
+  }
+  
+  #content-intro-title p{
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+
+  #content-intro-text blockquote{
+    font-size: 1.1rem;
+  }
+
+}

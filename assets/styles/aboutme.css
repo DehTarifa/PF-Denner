@@ -1,0 +1,231 @@
+/* PÁGINA SOBRE MIM -------------*/
+.title{
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* ABOUT ME INTRODUCTION -------------*/
+
+#aboutme-intro{
+  background: var(--default-color-01);
+  padding: 6rem .8rem;
+}
+
+#intro-apresentation{
+  color: aliceblue;
+  background: var(--default-color-01);
+  border: 1px solid #ccc;
+  padding: 2rem;
+  max-width: 60rem;
+}
+
+#intro-apresentation .title{
+  position: absolute;
+  top: -18px;
+  background: var(--default-color-01);
+  width: 13rem;
+  text-align: center;
+}
+
+#intro-apresentation blockquote{
+  text-align: justify;
+}
+
+#intro-information p {
+  color: #ccc;
+  background: #0b110e;
+  padding: .9rem 1rem;
+  border-radius: 3px;
+  max-width: 35rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  transition: .6s all ease;
+}
+
+#intro-information p:hover {
+  background: rgb(63, 63, 63);
+  transform: translateY(-.5rem);
+}
+
+/* ABOUT ME CARD SKILL  -------------*/
+
+#aboutme-skill{
+  background: #f3f3f3;
+}
+
+#container-cardskill{
+  position: relative;
+  max-width: 65rem;
+  top: -6rem;
+}
+
+#container-cardskill h2{
+  color: #fff;
+  margin: .8rem 0rem;
+}
+
+.card-skill{
+  background-color: rgb(255, 255, 255);
+  width: 20rem;
+  height: 26rem;
+  margin: 1rem auto;
+  padding: 3rem 1rem;
+  border-radius: 3px;
+  transition: .6s all ease-in-out;
+  box-shadow: 10px 10px 40px -4px rgba(0, 0, 0, 0.233);
+}
+
+.card-skill:hover {
+  transform: scale(1.05);
+}
+
+.card-skill img{
+  width: 60px;
+  margin-bottom: .5rem;
+}
+
+.card-skill p{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.card-skill blockquote{
+  font-size: 1rem;
+  font-weight: 400;
+  height: 12rem;
+  padding: 0 .8rem;
+  text-align: justify;
+}
+
+/* ABOUT ME TECNOLOGY  -------------*/
+
+#aboutme-technology{
+  background: #f3f3f3;
+}
+
+#technology-banner{
+  background-image: linear-gradient(rgb(0,0,0, .8), rgb(0,0,0, .8)),url(/assets/img/bg-1.png);
+  background-position: center;
+  background-size: cover;
+  height: 22rem;
+}
+
+#technology-text{
+  position: absolute;
+  top: -19rem;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2px;
+  color: #fff;
+}
+
+#technology-container-card{
+  max-width: 65rem;
+  margin: 2rem auto;
+  padding: 2rem 0rem;
+}
+
+.card-tec{
+  background: rgb(37, 37, 37);
+  width: 20rem;
+  height: 26rem;
+  margin: 1rem auto;
+  padding: 3rem 1rem;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f3f3f3;
+}
+
+.card-tec blockquote{
+  height: 15rem;
+  text-align: justify;
+  padding: 1rem;
+}
+
+#card-html{
+  background-image: linear-gradient(rgb(0,0,0, .9), rgb(0,0,0, .8)),url(/assets/img/ig-html.png);
+  background-position: center;
+  background-size: cover;
+  transition: .6s all ease;
+}
+
+#card-css{
+  background-image: linear-gradient(rgb(0,0,0, .9), rgb(0,0,0, .8)),url(/assets/img/ig-css.png);
+  background-position: center;
+  background-size: cover;
+  transition: .6s all ease;
+}
+
+#card-js{
+  background-image: linear-gradient(rgb(0,0,0, .9), rgb(0,0,0, .8)),url(/assets/img/ig-js.png);
+  background-position: center;
+  background-size: cover;
+  transition: .6s all ease;
+}
+
+#card-html:hover{
+  background-image: linear-gradient(rgb(0,0,0, .5), rgb(0,0,0, .3)),url(/assets/img/ig-html.png);
+  transform: translateY(-20px);
+}
+
+#card-css:hover{
+  background-image: linear-gradient(rgb(0,0,0, .5), rgb(0,0,0, .3)),url(/assets/img/ig-css.png);
+  transform: translateY(-20px);
+}
+
+#card-js:hover{
+  background-image: linear-gradient(rgb(0,0,0, .5), rgb(0,0,0, .3)),url(/assets/img/ig-js.png);
+  transform: translateY(-20px);
+}
+
+/* ABOUT ME TECNOLOGY DEVELOPING -------------*/
+
+#tecnology-developing{
+  margin: 3rem 0rem;
+}
+
+#container-developing img{
+  width: 70px;
+}
+
+#container-developing .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0rem;
+}
+
+/* FOOTER -------------*/
+
+#footer-container {
+  background: var(--default-color-01);
+  color: #ccc;
+  padding: 2rem;
+}
+
+#footer-content{
+  width: 40rem;
+  margin: 0 auto;
+}
+
+#footer-content div{
+  height: 6rem;
+}
+
+#footer-links i {
+  cursor: pointer;
+  transition: .6s ease;
+}
+
+#footer-links i:hover {
+  cursor: pointer;
+  color: #f3f3f3;
+  transform: translateY(-10px);
+}
+
+/* PÁGINA INICIO -------------*/

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio Denner Tarifa</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- LINK CSS -------------------------->
+
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="assets/styles/experience.css" />
+    <link rel="stylesheet" href="assets/styles/global.css">
+  </head>
+
+  <body>
+
+    <section id="top-Header position-relative">
+      <nav id="navigation-bar" class="container-fluid position-fixed">
+        <div
+          id="content-navbar"
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <div id="navegation-menu">
+            <button
+              id="navmenu-btn-modal"
+              class="d-flex align-items-center gap-1"
+            >
+              <i class="bi bi-list"></i>
+              Menu
+            </button>
+          </div>
+
+          <div id="navegation-links">
+            <div id="container-links" class="d-flex justify-content-center">
+              <a href="index.html">Inicio</a>
+              <a href="aboutme.html">Sobre mim</a>
+              <a href="experience.html">Experiência</a>
+            </div>
+          </div>
+
+          <div id="navegation-logo">
+            <div class="d-flex gap-2 align-items-center">
+              <span>Portifólio</span>
+              <div id="nav-perfil"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="side-menu-bar" class="position-fixed w-100">
+        <div id="sidemenu-header" class="d-flex justify-content-between p-2">
+          <input
+            id="sidemenu-input"
+            type="text"
+            placeholder="Selecione uma seção"
+            class="w-100 p-2"
+          />
+          <i
+            class="bi bi-x-lg d-flex justify-content-center align-items-center"
+          ></i>
+        </div>
+
+        <div id="sidemenu-main" class="d-flex flex-column p-2">
+          <a href="#aboutme-intro" onmouseover="showInMenu('Sobre mim')">
+            <i class="bi bi-bug"></i>
+            Não a seções
+          </a>
+        </div>
+
+        <div id="sidemenu-footer">
+          <a href="index.html" onmouseover="showInMenu('Seção05')">
+            <i class="bi bi-arrow-return-left"></i>
+            Voltar para inicio
+          </a>
+        </div>
+      </div>
+
+      <div id="navigation-bottom">
+        <div id="content-navbottom" class="d-flex justify-content-around">
+
+          <a href="index.html">
+            <i class="bi bi-house"></i>
+          </a>
+
+          <a href="aboutme.html">
+            <i class="bi bi-person"></i>
+          </a>
+
+          <a href="experience.html">
+            <i class="bi bi-easel"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <div id="screen-notification">
+        <div id="content-notification">
+          <p>
+            Este portfólio está em desenvolvimento, portanto pode haver algumas falhas que logo serão corrigidas. <br>
+            Desde já agradeço sua vinda aqui, espero que gostem 😁
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-introduction">
+      <blockquote>
+        Esta seção ainda está sendo planejada para ser colocada todos os projetos que já realizei dentro do ambiente acadêmico e pessoal, em breve você terá mais atualizações.
+      </blockquote>
+
+      <p>👷‍♂️🚧</p>
+    </section>
+
+
+
+    <!-- FOOTER ------------------>
+
+    <footer id="section-contact" class="text-center">
+      <h3>Entre em contato</h3>
+      <p>Email: denner_tarifa@outlook.com</p>
+
+      <div id="footer-links" class="d-flex gap-3 justify-content-center">
+        <a href="https://www.linkedin.com/in/denner-tarifa-ribeiro-9a2710187/" target="_blank">
+          <i class="bi bi-linkedin fs-2"></i>
+        </a>
+
+        <a href="https://github.com/DehTarifa" target="_blank">
+          <i class="bi bi-github fs-2"></i>
+        </a>
+
+        <a href="https://wa.me/5511914080548" target="_blank">
+          <i class="bi bi-whatsapp fs-2"></i>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1HhWKCbGfmV5oYurZ7KkkOVNItoq_d1us/view?usp=share_link" target="_blank">
+          <i class="bi bi-file-earmark-arrow-down fs-2"></i>
+        </a>
+      </div>
+
+      <p id="footer-text">	&#169; Este projeto foi criado com a intenção de mostrar meus conhecimento no desenvolvendo de front-end, afim de usá los para futuras entrevista de emprego e oportunidades de estágio</p>
+    </footer>
+
+    <script src="assets/script/jquery.js"></script>
+    <script src="assets/script/popper.min.js"></script>
+    <script src="assets/script/bootstrap.js"></script>
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>

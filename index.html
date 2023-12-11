@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio Denner Tarifa</title>
+
+    <!-- LINK CSS -------------------------->
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="assets/styles/home.css" />
+    <link rel="stylesheet" href="assets/styles/global.css">
+  </head>
+
+  <body>
+
+    <!-- NAVIGATION BAR ------------------------------>
+    
+    <section id="top-Header position-relative">
+      <nav id="navigation-bar" class="container-fluid position-fixed">
+        <div id="content-navbar" class="container d-flex justify-content-between align-items-center">
+
+          <div id="navegation-menu">
+            <button id="navmenu-btn-modal" class="d-flex align-items-center gap-1">
+              <i class="bi bi-text-left"></i>
+              Menu
+            </button>
+          </div>
+
+          <div id="navegation-links">
+            <div id="container-links" class="d-flex justify-content-center">
+              <a href="index.html">Inicio</a>
+              <a href="aboutme.html">Sobre mim</a>
+              <a href="experience.html">Experiência</a>
+            </div>
+          </div>
+
+          <div id="navegation-logo">
+            <div class="d-flex gap-2 align-items-center">
+              <span>Portifólio</span>
+              <div id="nav-perfil"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="side-menu-bar" class="position-fixed w-100">
+        <div id="sidemenu-header" class="d-flex justify-content-between p-2">
+          <input
+            id="sidemenu-input"
+            type="text"
+            placeholder="Selecione uma seção"
+            class="w-100 p-2"
+          />
+          <i
+            class="bi bi-x-lg d-flex justify-content-center align-items-center"
+          ></i>
+        </div>
+
+        <div id="sidemenu-main" class="d-flex flex-column p-2">
+          <a href="#section-introduction" onmouseover="showInMenu('Introdução')">
+            <i class="bi bi-house"></i>
+            Introdução
+          </a>
+
+          <a href="#section-aboutme" onmouseover="showInMenu('Sobre mim')">
+            <i class="bi bi-person"></i>
+            Sobre mim
+          </a>
+
+          <a href="#section-experience" onmouseover="showInMenu('Experiência Profissional')">
+            <i class="bi bi-briefcase"></i>
+            Experiência Profissional
+          </a>
+
+          <a href="#section-academic" onmouseover="showInMenu('Formação Acadêmica')">
+            <i class="bi bi-mortarboard"></i>
+            Formação Acadêmica
+          </a>
+
+          <a href="#section-contact" onmouseover="showInMenu('Entre em contato')">
+            <i class="bi bi-phone"></i>
+            Entre em contato
+          </a>
+        </div>
+
+        <div id="sidemenu-footer">
+          <a href="#" onmouseover="showInMenu('Seção05')">
+            <i class="bi bi-arrow-return-left"></i>
+            Voltar para inicio
+          </a>
+        </div>
+      </div>
+
+      <div id="navigation-bottom">
+        <div id="content-navbottom" class="d-flex justify-content-around">
+
+          <a href="index.html">
+            <i class="bi bi-house"></i>
+          </a>
+
+          <a href="aboutme.html">
+            <i class="bi bi-person"></i>
+          </a>
+
+          <a href="experience.html">
+            <i class="bi bi-easel"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <div id="screen-notification">
+        <div id="content-notification">
+          <p>
+            Este portfólio está em desenvolvimento, portanto pode haver algumas falhas que logo serão corrigidas. <br>
+            Desde já agradeço sua vinda aqui, espero que gostem 😁
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <main>
+
+      <!-- SECTION INTRODUCTION ------------------------>
+
+      <section id="section-introduction" class="container-fluid">
+        <aside id="container-introduction" class="row">
+
+          <content id="content-introduction-text" class="col-12 col-lg-6">
+            <h1>Olá, <span>me chamo <br> Denner</span></h1>
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita dolor quidem tempore! Cumque qui accusantium illum. Magnam illum atque ipsam doloremque nesciunt illo debitis rerum architecto labore officiis! Voluptatem, culpa?
+            </blockquote>
+          </content>
+
+          <content id="content-introduction-img" class="col-12 col-lg-6">
+            <img src="assets/img/ig-person-1.png" alt="" >
+          </content>
+
+          <content id="content-introduction-footer" class="col-12">
+            <h6>Portifólio desenvolvido e criado por Denner Tarifa</h6>
+            <a href="#" class="button-fluid">X</a>
+          </content>
+
+        </aside>
+      </section>
+
+      <!-- SECTION ABOUTME ----------------------------->
+
+      <section id="section-aboutme"
+        class="container-fluid d-flex align-items-center flex-column justify-content-center"
+      >
+        <aside class="container position-relative">
+          <h2 class="title">Sobre mim</h2>
+          <p class="fs-5">Carta de apresentação</p>
+          <blockquote>
+            <strong>Prezados Senhores (a).</strong><br />
+            Meu nome é Denner Tarifa Ribeiro, tenho 23 anos, sou estudante do
+            curso de Análise e Desenvolvimento de sistemas no centro
+            universitário ENIAC. Procuro oportunidades para iniciar a minha
+            carreira profissional na área de TI, a fim de aprender e desenvolver
+            minhas habilidades profissionais e pessoais. Estou me desenvolvendo
+            nas linguagens JavaScript, nodejs, sql, mas sou flexível para
+            aprender demais tecnologias do mercado , trabalho bem em equipe e
+            sempre busco por melhores resultados.
+          </blockquote>
+        </aside>
+
+        <a class="link-button" href="aboutme.html">Saiba mais</a>
+      </section>
+
+      <!-- SECTION PROFESSIONAL EXPERIENCE ------------->
+      <section id="section-experience" class="container-fluid">
+
+        <aside class="container d-flex flex-column gap-4">
+          <h2 class="text-section">Experiência profissional</h2>
+
+          <div id="content-cardexperience" class="row gap-3">
+
+            <div class="card-experience col-12 col-lg-4">
+              <h3>Auxiliar de Almoxarifado</h3>
+              <blockquote>
+                Auxiliar a produção a atingir os resultados esperados como metas
+                estabelecidas, além disso prevenir o desperdício de produto e
+                insumos, sempre presando pelo melhor resulto possível. Gerenciar o
+                estoque de modo que fique sempre organizado, sempre alimentando as
+                linhas de produção. Realizar carga e descarga de produtos
+                acabados, recebimento de matéria prima.
+              </blockquote>
+              <p>
+                Maferita Cosméticos LTDA - Guarulhos - SP <br />
+                02/2021 - 10/2022.
+              </p>
+            </div>
+
+            <div class="card-experience col-12 col-lg-4">
+              <h3>Serviço de pintura e Acabamento</h3>
+              <blockquote>
+                Realizar pintura em paredes internas e externas. Preparando as
+                superfícies antes de pintá-las, como limpeza, aplicação de massa
+                fina ou corrida e lixamento, prezando sempre a melhor qualidade
+                para entrega para o cliente final. Além disso, realizar o
+                orçamento para o cliente e efetuar compra de futuros materiais
+                para serem utilizados durante a obra.
+              </blockquote>
+              <p>
+                Autônomo - Maria da fé - MG <br />
+                01/2018 - 10/2020
+              </p>
+            </div>
+
+            <div class="card-experience col-12 col-lg-4">
+              <h3>Auxiliar de Produção</h3>
+              <blockquote>
+                Auxiliar no acabamento de tiaras femininas, controlar o estoque de
+                materiais para que não falte material para a finalização das
+                tiaras, auxiliar na entrega e descarregamento de produtos acabados
+                e semiacabados.
+              </blockquote>
+              <p>
+                MEI Oficina de tiaras femininas - Poá - SP <br />
+                03/2016 - 04/2017
+              </p>
+            </div>
+
+          </div>
+        </aside>
+      </section>
+
+      <!-- SECTION ACADEMIC FORMATION ------------------>
+      <section id="section-academic">
+        <div id="academic-intro" class="text-center">
+          <h2>Formação Acadêmica</h2>
+        </div>
+
+        <div id="academic-container" class="">
+          <div id="container-cardacademic" class="row w-100">
+
+            <div class="card-academic col-12 col-lg-3">
+              <h3>Análise e desenvolvendo de sistemas</h3>
+              <p>
+                Ensino Superior - Eniac, Guarulhos - SP <br />
+                11/2021 - 11/2023 Cursando
+              </p>
+              <blockquote>
+                Faculdade com foco nas linguagens de programação atuais no
+                mercado, além disso estudo sobre desenvolvimento de projetos,
+                criação de web sites e gerenciamento de softwares.
+              </blockquote>
+            </div>
+  
+            <div class="card-academic col-12 col-lg-3">
+              <h3>Segurança do trabalho</h3>
+              <p>
+                Competência Transversal 14horas - Senai, São Paulo <br />
+                06/2021 - 07/2021
+              </p>
+              <ul>
+                <li>Conceitos e Principais acidente de Trabalho</li>
+                <li>Uma História sobre EPI e EPC</li>
+                <li>Causas mais comuns dos acidentes de trabalho</li>
+                <li>CIPA & Mapa de Ri</li>
+              </ul>
+            </div>
+  
+            <div class="card-academic col-12 col-lg-3">
+              <h3>Fundamento da Logística</h3>
+              <p>
+                Competência Transversal 14horas - Senai, São Paulo <br />
+                06/2021 - 06/2021
+              </p>
+              <ul>
+                <li>Modalidades de Transporte</li>
+                <li>Sistemas de Transporte</li>
+                <li>Gestão da Qualidade</li>
+                <li>Modal Rodoviário, Ferroviário, Aquaviário, Dutoviário</li>
+              </ul>
+            </div>
+  
+            <div class="card-academic col-12 col-lg-3">
+              <h3>Módulo Básico JavaScript</h3>
+              <p>
+                Curso em vídeo, Rio de Janeiro <br />
+                05/2022 - 06/2022
+              </p>
+              <ul>
+                <li>Comando Básicos em JavaScript</li>
+                <li>Repetições em JavaScript</li>
+                <li>Condições em JavaScript</li>
+                <li>Entendendo o DOM</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    
+    <!-- SECTION CONTACT ----------------------------->
+    <footer id="section-contact" class="text-center">
+      <h3>Entre em contato</h3>
+      <p>Email: denner_tarifa@outlook.com</p>
+
+      <div id="footer-links" class="d-flex gap-3 justify-content-center">
+        <a href="https://www.linkedin.com/in/denner-tarifa-ribeiro-9a2710187/" target="_blank">
+          <i class="bi bi-linkedin fs-2"></i>
+        </a>
+
+        <a href="https://github.com/DehTarifa" target="_blank">
+          <i class="bi bi-github fs-2"></i>
+        </a>
+
+        <a href="https://wa.me/5511914080548" target="_blank">
+          <i class="bi bi-whatsapp fs-2"></i>
+        </a>
+
+        <a href="https://drive.google.com/file/d/1HhWKCbGfmV5oYurZ7KkkOVNItoq_d1us/view?usp=share_link" target="_blank">
+          <i class="bi bi-file-earmark-arrow-down fs-2"></i>
+        </a>
+      </div>
+
+      <p id="footer-text">	&#169; Este projeto foi criado com a intenção de mostrar meus conhecimento no desenvolvendo de front-end, afim de usá los para futuras entrevista de emprego e oportunidades de estágio</p>
+    </footer>
+
+    
+    <script src="assets/script/jquery.js"></script>
+    <script src="assets/script/popper.min.js"></script>
+    <script src="assets/script/bootstrap.js"></script>
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>
